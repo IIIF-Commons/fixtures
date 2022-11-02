@@ -37,7 +37,7 @@ layout: default
             {{ site.url }}{{ site.baseurl }}{{ page.dir}}{{ manifest_name }}
         {% endif %}
     {% endcapture %}
-    {% capture manifest %}{{ manifest_url | strip }}{% endcapture %}
+    {% capture manifest %}{{ manifest_url | strip |  absolute_url }}{% endcapture %}
 
     <h3>Links:</h3>
     <ul>
