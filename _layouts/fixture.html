@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.modified_date -%}
+        ~ 
+        {%- assign mdate = page.modified_date | date_to_xmlschema -%}
+        <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
+          {{ mdate | date: date_format }}
+        </time>
+      {%- endif -%}
+      {%- if page.author -%}
+        {% for author in page.author %}
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
+            {%- if forloop.last == false %}, {% endif -%}
+        {% endfor %}
+      {%- endif -%}</p>
+      <p>Tags: {{page.tags}}</p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>{{ page.description }}</p>
+
+    {% capture manifest_name %}{% if page.manifest %}{{ page.manifest }}{% else %}manifest.json{% endif %}{% endcapture %}
+    {% capture manifest_url %}
+        {% if manifest_name contains 'http' %}
+            {{ manifest_name }}
+        {% else %}
+            {{ site.url }}{{ site.baseurl }}{{ page.dir}}{{ manifest_name }}
+        {% endif %}
+    {% endcapture %}
+    {% capture manifest %}{{ manifest_url | strip }}{% endcapture %}
+
+    <h3>Links:</h3>
+    <ul>
+        <li><a href="{{manifest}}">{{manifest}}</a></li>
+
+        {% for viewer in site.data.viewers %}
+            <li><a href="{{ viewer.url | replace: "**MANIFEST**", manifest}}">{{viewer.name}}</a></li>
+        {% endfor %}
+    </ul>    
+    {{ content }}
+  </div>
+</article>

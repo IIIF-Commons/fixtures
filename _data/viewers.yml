@@ -1,0 +1,8 @@
+- name: UV 3
+  url: https://uv-v3.netlify.app/#?c=&amp;m=&amp;s=&amp;cv=&amp;manifest=**MANIFEST**
+- name: UV 4
+  url: https://uv-v3.netlify.app/#?c=&amp;m=&amp;s=&amp;cv=&amp;manifest=**MANIFEST**
+- name: Mirador
+  url: https://projectmirador.org/embed/?iiif-content=**MANIFEST**
+- name: Clover
+  url: https://samvera-labs.github.io/clover-iiif/?iiif-content=**MANIFEST**
