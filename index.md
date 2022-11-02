@@ -11,7 +11,7 @@ layout: home
 {% assign pages = site.pages | where_exp:"fixture", "fixture.tags == heading.tag" %}
 <ul>
 {% for page in pages %}
-    <li><a href="{{page.url}}">{{page.title}}</a></li>
+    <li><a href="{{page.url |absolute_url}}">{{page.title}}</a></li>
 {% endfor %}
 </ul>
 {% endfor %}
