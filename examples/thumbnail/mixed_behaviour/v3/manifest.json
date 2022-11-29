@@ -1,0 +1,384 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "{{ id.url }}",
+  "type": "Manifest",
+  "label": {
+    "true": [
+      "Inspired by Campbells collection vol 99 from the University of Edinbrugh"
+    ]
+  },
+  "items": [
+    {
+      "id": "{{ id.path }}/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "true": [
+          "non-paged - 1"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-1_frontcover/full/512,/0/default.jpg",
+          "type": "Image"
+        }
+      ],
+      "height": 7230,
+      "width": 5428,
+      "behavior": [
+        "non-paged"
+      ],
+      "items": [
+        {
+          "id": "https://example.org/uuid/a1a61e37-e838-4e8c-ba5f-48340f024ebc",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/uuid/b458d74c-339e-4386-8372-fba43a0b2d1a",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "{{ id.path }}/canvas/1",
+              "body": {
+                "id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-1_frontcover/full/full/0/default.jpg",
+                "type": "dcTypes:Image",
+                "format": "image/jpeg",
+                "height": 7230,
+                "width": 5428,
+                "service": [
+                  {
+                    "@id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-1_frontcover",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas/2",
+      "type": "Canvas",
+      "label": {
+        "true": [
+          "non-paged - 2"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-2_insidefrontcover/full/512,/0/default.jpg",
+          "type": "Image"
+        }
+      ],
+      "height": 7230,
+      "width": 5428,
+      "behavior": [
+        "non-paged"
+      ],
+      "items": [
+        {
+          "id": "https://example.org/uuid/d401f32e-cb1c-44b5-b024-71efddd695e7",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/uuid/7e4a8758-36cf-406c-b2b6-2d9f06edb979",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "{{ id.path }}/canvas/2",
+              "body": {
+                "id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-2_insidefrontcover/full/full/0/default.jpg",
+                "type": "dcTypes:Image",
+                "format": "image/jpeg",
+                "height": 7230,
+                "width": 5428,
+                "service": [
+                  {
+                    "@id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-2_insidefrontcover",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas/3",
+      "type": "Canvas",
+      "label": {
+        "true": [
+          "paged - 3"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-4_titlepage1_verso/full/512,/0/default.jpg",
+          "type": "Image"
+        }
+      ],
+      "height": 7230,
+      "width": 5428,
+      "behavior": [
+        "non-paged"
+      ],
+      "items": [
+        {
+          "id": "https://example.org/uuid/6f887553-f26d-4536-86e5-7429d51b021b",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/uuid/5c92bccc-d0d2-489e-93df-f4e4e5c101b2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "{{ id.path }}/canvas/3",
+              "body": {
+                "id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-4_titlepage1_verso/full/full/0/default.jpg",
+                "type": "dcTypes:Image",
+                "format": "image/jpeg",
+                "height": 7230,
+                "width": 5428,
+                "service": [
+                  {
+                    "@id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-4_titlepage1_verso",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas/4",
+      "type": "Canvas",
+      "label": {
+        "true": [
+          "paged - 4"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-6_titlepage2_verso/full/512,/0/default.jpg",
+          "type": "Image"
+        }
+      ],
+      "height": 7230,
+      "width": 5428,
+      "items": [
+        {
+          "id": "https://example.org/uuid/b514d909-bd8f-466d-895f-bcc8564ec01e",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/uuid/2a24717c-8fe0-4f0b-aed3-3646dc600ee7",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "{{ id.path }}/canvas/4",
+              "body": {
+                "id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-6_titlepage2_verso/full/full/0/default.jpg",
+                "type": "dcTypes:Image",
+                "format": "image/jpeg",
+                "height": 7230,
+                "width": 5428,
+                "service": [
+                  {
+                    "@id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-6_titlepage2_verso",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas/5",
+      "type": "Canvas",
+      "label": {
+        "true": [
+          "paged - 5"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-7_titlepage3/full/512,/0/default.jpg",
+          "type": "Image"
+        }
+      ],
+      "height": 7230,
+      "width": 5428,
+      "items": [
+        {
+          "id": "https://example.org/uuid/d444e4ac-24d5-4bc3-94ae-9188cef1fb0e",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/uuid/1f45889e-7de9-4e3f-8bfd-70a8efa616b3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "{{ id.path }}/canvas/5",
+              "body": {
+                "id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-7_titlepage3/full/full/0/default.jpg",
+                "type": "dcTypes:Image",
+                "format": "image/jpeg",
+                "height": 7230,
+                "width": 5428,
+                "service": [
+                  {
+                    "@id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-7_titlepage3",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas/6",
+      "type": "Canvas",
+      "label": {
+        "true": [
+          "paged - 6"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-8_titlepage3_verso/full/512,/0/default.jpg",
+          "type": "Image"
+        }
+      ],
+      "height": 7230,
+      "width": 5428,
+      "items": [
+        {
+          "id": "https://example.org/uuid/b949aa81-04ea-4b0e-a526-703dcf953576",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/uuid/6c52bea6-0c53-4eaa-b312-9c5301bc2b18",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "{{ id.path }}/canvas/6",
+              "body": {
+                "id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-8_titlepage3_verso/full/full/0/default.jpg",
+                "type": "dcTypes:Image",
+                "format": "image/jpeg",
+                "height": 7230,
+                "width": 5428,
+                "service": [
+                  {
+                    "@id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-8_titlepage3_verso",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas/7",
+      "type": "Canvas",
+      "label": {
+        "true": [
+          "paged - 7"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-9_insidebackcover/full/512,/0/default.jpg",
+          "type": "Image"
+        }
+      ],
+      "height": 7230,
+      "width": 5428,
+      "items": [
+        {
+          "id": "https://example.org/uuid/dd141ecb-fa9e-4510-966a-79e8bab27d33",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/uuid/d898667c-7262-4e65-a0f8-71b5631c8de0",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "{{ id.path }}/canvas/7",
+              "body": {
+                "id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-9_insidebackcover/full/full/0/default.jpg",
+                "type": "dcTypes:Image",
+                "format": "image/jpeg",
+                "height": 7230,
+                "width": 5428,
+                "service": [
+                  {
+                    "@id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-9_insidebackcover",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas/8",
+      "type": "Canvas",
+      "label": {
+        "true": [
+          "Back page - 8"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-10_backcover/full/512,/0/default.jpg",
+          "type": "Image"
+        }
+      ],
+      "height": 7230,
+      "width": 5428,
+      "items": [
+        {
+          "id": "https://example.org/uuid/adaed2d1-c6fa-4d91-8fd6-748bfe25b33c",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/uuid/b3be9d52-719b-43de-838f-d98021218f46",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "{{ id.path }}/canvas/8",
+              "body": {
+                "id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-10_backcover/full/full/0/default.jpg",
+                "type": "dcTypes:Image",
+                "format": "image/jpeg",
+                "height": 7230,
+                "width": 5428,
+                "service": [
+                  {
+                    "@id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-10_backcover",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

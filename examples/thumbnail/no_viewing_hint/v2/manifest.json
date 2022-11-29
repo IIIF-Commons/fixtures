@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "{{ id.url }}",
+    "@type": "sc:Manifest",
+    "label": "No viewing hint",
+    "sequences": [
+        {
+            "@type": "sc:Sequence",
+            "label": "Default to page order",
+            "canvases": [
+                {
+                    "@id": "{{ id.path }}/canvas/1",
+                    "@type": "sc:Canvas",
+                    "label": "Image 1",
+                    "thumbnail": "https://iiif.io/api/image/2.1/example/reference/918ecd18c2592080851777620de9bcb5-fountain/full/512,/0/default.jpg",
+                    "height": 4032,
+                    "width": 3024,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://iiif.io/api/image/2.1/example/reference/918ecd18c2592080851777620de9bcb5-fountain/full/full/0/default.jpg",
+                                "@type": "dcTypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4032,
+                                "width": 3024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.io/api/image/2.1/example/reference/918ecd18c2592080851777620de9bcb5-fountain",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "{{ id.path }}/canvas/1"
+                        }
+                    ]
+                },
+                {
+                    "@id": "{{ id.path }}/canvas/2",
+                    "@type": "sc:Canvas",
+                    "label": "Image 2",
+                    "thumbnail": "https://iiif.io/api/image/2.1/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/512,/0/default.jpg",
+                    "height": 4032,
+                    "width": 3024,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://iiif.io/api/image/2.1/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/full/0/default.jpg",
+                                "@type": "dcTypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4032,
+                                "width": 3024,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.io/api/image/2.1/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "{{ id.path }}/canvas/2"
+                        }
+                    ]
+                },
+                {
+                    "@id": "{{ id.path }}/canvas/3",
+                    "@type": "sc:Canvas",
+                    "label": "Image 3",
+                    "thumbnail": "https://iiif.io/api/image/2.1/example/reference/28473c77da3deebe4375c3a50572d9d3-laocoon/full/512,/0/default.jpg",
+                    "height": 3000,
+                    "width": 2315,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://iiif.io/api/image/2.1/example/reference/28473c77da3deebe4375c3a50572d9d3-laocoon/full/full/0/default.jpg",
+                                "@type": "dcTypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3000,
+                                "width": 2315,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.io/api/image/2.1/example/reference/28473c77da3deebe4375c3a50572d9d3-laocoon",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "{{ id.path }}/canvas/3"
+                        }
+                    ]
+                },
+                {
+                    "@id": "{{ id.path }}/canvas/4",
+                    "@type": "sc:Canvas",
+                    "label": "Image 4",
+                    "thumbnail": "https://iiif.io/api/image/2.1/example/reference/58763298b61c2a99f78ff94d8364c639-laocoon_1946_18_1/full/512,/0/default.jpg",
+                    "height": 3259,
+                    "width": 4096,
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://iiif.io/api/image/2.1/example/reference/58763298b61c2a99f78ff94d8364c639-laocoon_1946_18_1/full/full/0/default.jpg",
+                                "@type": "dcTypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3259,
+                                "width": 4096,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.io/api/image/2.1/example/reference/58763298b61c2a99f78ff94d8364c639-laocoon_1946_18_1",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "{{ id.path }}/canvas/4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
