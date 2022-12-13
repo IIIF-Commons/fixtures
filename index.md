@@ -8,10 +8,15 @@ layout: home
 
 {% for heading in site.headings %}
 <h2>{{ heading.title}}</h2>
-{% assign pages = site.pages | where_exp:"fixture", "fixture.tags == heading.tag" %}
+{% for version in site.versions %}
+{% assign pages = site.pages | where_exp:"fixture", "fixture.tags == heading.tag and fixture.version == version" | sort: "title" %}
+{% if pages.size != 0%}
+<h3>v{{ version }}</h3>
 <ul>
 {% for page in pages %}
     <li><a href="{{page.url |relative_url}}">{{page.title}}</a></li>
 {% endfor %}
 </ul>
+{% endif %}
+{% endfor %}
 {% endfor %}
