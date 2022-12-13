@@ -1,0 +1,34 @@
+{
+    "protocol": "http://iiif.io/api/image",
+    "sizes": [
+        {
+            "width": 170,
+            "height": 226
+        },
+        {
+            "width": 340,
+            "height": 452
+        },
+        {
+            "width": 679,
+            "height": 904
+        },
+        {
+            "width": 1357,
+            "height": 1808
+        },
+        {
+            "width": 2714,
+            "height": 3615
+        },
+        {
+            "width": 5428,
+            "height": 7230
+        }
+    ],
+    "profile": "http://iiif.io/api/image/2/level0.json",
+    "width": 5428,
+    "@id": "{{ id.path }}",
+    "@context": "http://iiif.io/api/image/2/context.json",
+    "height": 7230
+}

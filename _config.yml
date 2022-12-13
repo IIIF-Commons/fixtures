@@ -41,6 +41,13 @@ headings:
    title: Audio Visual
  - tag: thumb
    title: Thumbnails
+ - tag: thumb-panel  
+   title: Thumbnail Panel 
+
+versions: 
+ - 2
+ - 3 
+ 
 
 # Exclude from processing.
 # The following items will not be processed, by default.
