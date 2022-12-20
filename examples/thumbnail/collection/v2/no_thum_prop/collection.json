@@ -1,0 +1,30 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "{{ id.url }}",
+    "@type": "sc:Collection",
+    "label": "Collection with no thumbnail property",
+    "members": [
+        {
+            "@id": "{{ id.path }}/manifest1.json",
+            "@type": "sc:Manifest",
+            "label": "Manifest 1"
+        },
+        {
+            "@id": "{{ id.path }}/manifest2.json",
+            "@type": "sc:Manifest",
+            "label": "Manifest 2"
+        }
+    ],
+    "manifests": [
+        {
+            "@id": "{{ id.path }}/manifest1.json",
+            "@type": "sc:Manifest",
+            "label": "Manifest 1"
+        },
+        {
+            "@id": "{{ id.path }}/manifest2.json",
+            "@type": "sc:Manifest",
+            "label": "Manifest 2"
+        }
+    ]
+}
