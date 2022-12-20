@@ -2,7 +2,7 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "{{ id.url }}",
     "@type": "sc:Manifest",
-    "label": "No thumb property",
+    "label": "Manifest with no thumbnail property you may select the first canvas as the thumbnail",
     "sequences": [
         {
             "@type": "sc:Sequence",
@@ -11,22 +11,28 @@
                 {
                     "@id": "{{ id.path }}/canvas/1",
                     "@type": "sc:Canvas",
-                    "label": "Image 1",
-                    "height": 4032,
-                    "width": 3024,
+                    "label": "Page 1",
+                    "thumbnail": {
+                        "@id" : "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-4_titlepage1_verso/full/512,/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "height": 682,
+                        "width": 512
+                    },
+                    "height": 7230,
+                    "width": 5428,
                     "images": [
                         {
                             "@type": "oa:Annotation",
                             "motivation": "sc:painting",
                             "resource": {
-                                "@id": "https://iiif.io/api/image/2.1/example/reference/918ecd18c2592080851777620de9bcb5-fountain/full/full/0/default.jpg",
+                                "@id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-4_titlepage1_verso/full/full/0/default.jpg",
                                 "@type": "dcTypes:Image",
                                 "format": "image/jpeg",
-                                "height": 4032,
-                                "width": 3024,
+                                "height": 7230,
+                                "width": 5428,
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
-                                    "@id": "https://iiif.io/api/image/2.1/example/reference/918ecd18c2592080851777620de9bcb5-fountain",
+                                    "@id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-4_titlepage1_verso",
                                     "profile": "http://iiif.io/api/image/2/level2.json"
                                 }
                             },
@@ -37,28 +43,29 @@
                 {
                     "@id": "{{ id.path }}/canvas/2",
                     "@type": "sc:Canvas",
-                    "label": "Image 2",
-                    "height": 4032,
-                    "width": 3024,
+                    "label": "Page 2",
+                    "thumbnail": {
+                        "@id" : "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-6_titlepage2_verso/full/512,/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "height": 682,
+                        "width": 512
+                    },
+                    "height": 7230,
+                    "width": 5428,
                     "images": [
                         {
                             "@type": "oa:Annotation",
                             "motivation": "sc:painting",
                             "resource": {
-                                "@id": "https://iiif.io/api/image/2.1/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/full/0/default.jpg",
+                                "@id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-6_titlepage2_verso/full/full/0/default.jpg",
                                 "@type": "dcTypes:Image",
                                 "format": "image/jpeg",
-                                "height": 4032,
-                                "width": 3024,
+                                "height": 7230,
+                                "width": 5428,
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
-                                    "@id": "https://iiif.io/api/image/2.1/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
-                                    "profile": "http://iiif.io/api/image/2/level2.json",
-                                    "sizes": [
-                                        { "width": 756, "height": 1008 },
-                                        { "width": 1512, "height": 2016 },
-                                        { "width": 3024, "height": 4032 }
-                                    ]
+                                    "@id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-6_titlepage2_verso",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
                                 }
                             },
                             "on": "{{ id.path }}/canvas/2"
