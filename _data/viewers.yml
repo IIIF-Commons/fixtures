@@ -6,3 +6,5 @@
   url: https://projectmirador.org/embed/?iiif-content=**MANIFEST**
 - name: Clover
   url: https://samvera-labs.github.io/clover-iiif/?iiif-content=**MANIFEST**
+- name: Thumbnail Panel
+  url: https://thumbnail-panel.netlify.app/?iiif-content=**MANIFEST**
