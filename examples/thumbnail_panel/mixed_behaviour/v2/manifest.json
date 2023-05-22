@@ -70,7 +70,7 @@
                     "@type": "sc:Canvas",
                     "label": "paged - 3",
                     "thumbnail": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-4_titlepage1_verso/full/512,/0/default.jpg",
-                    "viewingHint": "non-paged",
+                    "viewingHint": "paged",
                     "height": 7230,
                     "width": 5428,
                     "images": [
@@ -98,6 +98,7 @@
                     "@type": "sc:Canvas",
                     "label": "paged - 4",
                     "thumbnail": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-6_titlepage2_verso/full/512,/0/default.jpg",
+                    "viewingHint": "paged",
                     "height": 7230,
                     "width": 5428,
                     "images": [
@@ -125,6 +126,7 @@
                     "@type": "sc:Canvas",
                     "label": "paged - 5",
                     "thumbnail": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-7_titlepage3/full/512,/0/default.jpg",
+                    "viewingHint": "paged",
                     "height": 7230,
                     "width": 5428,
                     "images": [
@@ -152,6 +154,7 @@
                     "@type": "sc:Canvas",
                     "label": "paged - 6",
                     "thumbnail": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-8_titlepage3_verso/full/512,/0/default.jpg",
+                    "viewingHint": "paged",
                     "height": 7230,
                     "width": 5428,
                     "images": [
@@ -179,6 +182,7 @@
                     "@type": "sc:Canvas",
                     "label": "paged - 7",
                     "thumbnail": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-9_insidebackcover/full/512,/0/default.jpg",
+                    "viewingHint": "paged",
                     "height": 7230,
                     "width": 5428,
                     "images": [
@@ -206,6 +210,7 @@
                     "@type": "sc:Canvas",
                     "label": "Back page - 8",
                     "thumbnail": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-10_backcover/full/512,/0/default.jpg",
+                    "viewingHint": "paged",
                     "height": 7230,
                     "width": 5428,
                     "images": [
