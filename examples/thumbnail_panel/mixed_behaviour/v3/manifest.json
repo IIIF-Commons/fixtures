@@ -6,7 +6,7 @@
   "id": "{{ id.url }}",
   "type": "Manifest",
   "label": {
-    "true": [
+    "en": [
       "Inspired by Campbells collection vol 99 from the University of Edinbrugh"
     ]
   },
@@ -15,7 +15,7 @@
       "id": "{{ id.path }}/canvas/1",
       "type": "Canvas",
       "label": {
-        "true": [
+        "en": [
           "non-paged - 1"
         ]
       },
@@ -63,7 +63,7 @@
       "id": "{{ id.path }}/canvas/2",
       "type": "Canvas",
       "label": {
-        "true": [
+        "en": [
           "non-paged - 2"
         ]
       },
@@ -111,7 +111,7 @@
       "id": "{{ id.path }}/canvas/3",
       "type": "Canvas",
       "label": {
-        "true": [
+        "en": [
           "paged - 3"
         ]
       },
@@ -124,7 +124,7 @@
       "height": 7230,
       "width": 5428,
       "behavior": [
-        "non-paged"
+        "paged"
       ],
       "items": [
         {
@@ -159,7 +159,7 @@
       "id": "{{ id.path }}/canvas/4",
       "type": "Canvas",
       "label": {
-        "true": [
+        "en": [
           "paged - 4"
         ]
       },
@@ -171,6 +171,9 @@
       ],
       "height": 7230,
       "width": 5428,
+      "behavior": [
+        "paged"
+      ],
       "items": [
         {
           "id": "https://example.org/uuid/b514d909-bd8f-466d-895f-bcc8564ec01e",
@@ -204,7 +207,7 @@
       "id": "{{ id.path }}/canvas/5",
       "type": "Canvas",
       "label": {
-        "true": [
+        "en": [
           "paged - 5"
         ]
       },
@@ -216,6 +219,9 @@
       ],
       "height": 7230,
       "width": 5428,
+      "behavior": [
+        "paged"
+      ],
       "items": [
         {
           "id": "https://example.org/uuid/d444e4ac-24d5-4bc3-94ae-9188cef1fb0e",
@@ -249,7 +255,7 @@
       "id": "{{ id.path }}/canvas/6",
       "type": "Canvas",
       "label": {
-        "true": [
+        "en": [
           "paged - 6"
         ]
       },
@@ -261,6 +267,9 @@
       ],
       "height": 7230,
       "width": 5428,
+      "behavior": [
+        "paged"
+      ],
       "items": [
         {
           "id": "https://example.org/uuid/b949aa81-04ea-4b0e-a526-703dcf953576",
@@ -294,7 +303,7 @@
       "id": "{{ id.path }}/canvas/7",
       "type": "Canvas",
       "label": {
-        "true": [
+        "en": [
           "paged - 7"
         ]
       },
@@ -306,6 +315,9 @@
       ],
       "height": 7230,
       "width": 5428,
+      "behavior": [
+        "paged"
+      ],
       "items": [
         {
           "id": "https://example.org/uuid/dd141ecb-fa9e-4510-966a-79e8bab27d33",
@@ -339,7 +351,7 @@
       "id": "{{ id.path }}/canvas/8",
       "type": "Canvas",
       "label": {
-        "true": [
+        "en": [
           "Back page - 8"
         ]
       },
@@ -348,6 +360,9 @@
           "id": "https://iiif.io/api/image/2.1/example/reference/15f769d62ca9a3a2deca390efed75d73-10_backcover/full/512,/0/default.jpg",
           "type": "Image"
         }
+      ],
+      "behavior": [
+        "paged"
       ],
       "height": 7230,
       "width": 5428,
